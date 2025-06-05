@@ -1,18 +1,18 @@
-:root{
-    --branco-principal:#FFFFFF;
-    --cinza-secundacrio:#C0C0C0;
-    --botao-azul:#167BF7;
-    --cor-de-fundo:#00030C;
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
-    --botao-azul-efeito:#3C92fA;
+    --botao-azul-efeito: #3C92fA;
 }
 
-body{
-   background-color: var(--cor-de-fundo);
-   color: var(--branco-principal);
-   font-family: var(--fonte-principal);
-   font-size: 16px;
-   font-weight: 400;
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 * {
@@ -21,20 +21,20 @@ body{
 }
 
 .principal {
-    background-image: url("img/Background.png");
+    background-image: url("img/Background.png"); /* Certifique-se de que o caminho está correto */
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
     text-align: center;
 }
 
-.comtainer {
+.container {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
-.comtainer__botao{
+.container__botao {
     background-color: var(--botao-azul);
     border-radius: 5px;
     padding: 1em;
@@ -49,21 +49,21 @@ body{
     border: 2px solid var(--branco-principal);
 }
 
-.comtainer__aviso {
+.container__aviso {
     font-size: 12px;
-    color: var(--cinza-secundacrio);
+    color: var(--cinza-secundario);
 }
 
-.comtainer__titulo{
+.container__titulo {
     font-size: 20px;
     font-weight: 700;
 }
 
-.comtainer__imagem {
+.container__imagem {
     margin: 1em 0 2em 0;
 }
 
-.comtainer__caixa {
+.container__caixa {
     margin: 0 6em;
 }
 
@@ -76,7 +76,7 @@ body{
     margin: 0 10em;
 }
 
-.descricao__titulo{
+.descricao__titulo {
     font-weight: 700;
     font-size: 48px;
     color: var(--branco-principal);
@@ -84,7 +84,7 @@ body{
 }
 
 .descricao__texto {
-    color: var(--cinza-secundacrio);
+    color: var(--cinza-secundario);
 }
 
 .secundario__botao {
@@ -92,11 +92,11 @@ body{
     margin-top: 1em;
 }
 
-.comtainer__descricao {
+.container__descricao {
     padding: 2em;
 }
 
-.dispositivo__listas{
+.dispositivos__lista { /* Corrigido */
     display: flex;
     justify-content: center;
     list-style-type: none;
